@@ -12,7 +12,7 @@
  - touch
  - su, sudo
  - cp
- - vi, echo, pi, exit, clear, ls, rm, mv, ENV, export, 
+ - vi, echo, pi, exit, clear, ls, rm, mv, ENV, export
 
 #2. Using ‘find’ cmd,find the files>1G and remove it
 find ./ -type f -size +1G -delete
@@ -122,3 +122,6 @@ So common, this two tools are applied to create software distributions"
 #    - What will be the approach to check
 
 #5. Cut command
+
+
+# dmesg | grep eth0
