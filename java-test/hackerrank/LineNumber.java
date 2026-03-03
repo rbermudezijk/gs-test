@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class LineNumber {
@@ -9,5 +8,6 @@ public class LineNumber {
         while (in.hasNext()) {
             System.out.println(n++ + " " + in.nextLine());
         }
+        in.close();
     }
 }

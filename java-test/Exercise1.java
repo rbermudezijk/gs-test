@@ -1,4 +1,3 @@
-import java.util.HashMap;
 import java.util.HashSet;
 
 class Exercise1 {
@@ -10,9 +9,9 @@ class Exercise1 {
     String[] words = input.trim().split(" ");
     HashSet<String> wordsSet = new HashSet<String>();
     String result = "";
-    
-    for(String word: words) {
-      if(wordsSet.add(word)){
+
+    for (String word : words) {
+      if (wordsSet.add(word)) {
         result += " " + word;
       }
     }

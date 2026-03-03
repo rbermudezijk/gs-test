@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 class QuerySeriesGenerator {
     public static List<Integer[]> getQueries() {

@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 class FitNumberDataStructure {
     public static void main(String[] argh) {
@@ -25,5 +24,6 @@ class FitNumberDataStructure {
                 System.out.println(xString + " can't be fitted anywhere.");
             }
         }
+        sc.close();
     }
 }

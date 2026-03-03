@@ -21,7 +21,7 @@ public class Anagram {
         var bFrequencies = getFrequencies(b);
         for (char letter : aFrequencies.keySet()) {
             Integer bLetterFrequecy = bFrequencies.get(letter);
-            if (!bLetterFrequecy || bLetterFrequecy != aFrequencies.get(letter)) {
+            if (bLetterFrequecy == null || bLetterFrequecy != aFrequencies.get(letter)) {
                 return false;
             }
         }

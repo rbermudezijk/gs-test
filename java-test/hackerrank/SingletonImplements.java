@@ -1,14 +1,14 @@
-class MyClass {
-    static Myclass myclass;
+class SingletonImplements {
+    static SingletonImplements myclass;
 
     static {
-        myclass = new MyClass();
+        myclass = new SingletonImplements();
     }
 
-    private MyClass() {
+    private SingletonImplements() {
     }
 
-    public static MyClass getInstance() {
+    public static SingletonImplements getInstance() {
         return myclass;
     }
 }

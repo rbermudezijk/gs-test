@@ -1,8 +1,7 @@
-import java.io.*;
 import java.util.*;
 import static java.util.stream.Collectors.toList;
 
-public class Solution {
+public class TokenSplitter {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();
@@ -18,7 +17,7 @@ public class Solution {
     }
 }
 
-public class Solution2 {
+class Solution2 {
     public static void main(String[] args) {
         var scan = new Scanner(System.in);
         var input = scan.nextLine();
@@ -31,7 +30,7 @@ public class Solution2 {
     }
 }
 
-public class Solution3 {
+class Solution3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String input = scan.nextLine();

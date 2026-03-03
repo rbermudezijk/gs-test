@@ -2,7 +2,6 @@
 /*
  * Click `Run` to execute the snippet below!
  */
-import java.io.*;
 import java.util.*;
 
 /*
@@ -42,6 +41,6 @@ class DuplicatedLetters {
 
     public static void main(String[] args) {
         String input = "apple";
-        System.out.println(letters(input));
+        System.out.println(solution(input));
     }
 }
